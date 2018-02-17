@@ -1,0 +1,7 @@
+=== HowTo
+
+source the credential and then run the following command 
+
+----
+openstack stack create -t create_tenant_and_user.yaml --parameter tenant_name=remo --parameter tenant_user=remo --parameter tenant_user_password=redpassword create_project_remo
+----
